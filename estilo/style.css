@@ -73,13 +73,35 @@ section.normal, section.imagem{
   section.imagem{
    
       color:  white;
+     box-shadow: inset 0px 0px 10px 1px  black ;
+     background-attachment: fixed;
   }
   section.imagem >p{
       background-color: #0000008e;
       width:  400px;
       padding: 6px;
+      background: linear-gradient(to right, black, transparent);
   }
-  
+
+  section#img1 {
+      background-image: url(../imagens/imagens/background001.jpg);
+      background-position:  right center;
+      background-size: cover;
+  }
+  section#img2 { 
+      background-image: url(../imagens/imagens/background002.jpg);
+      background-position:  right center;
+      background-size: cover;
+      
+
+  }
+  section >p {
+      padding-bottom: 2em;
+  }
+/* END CORPO */
+
+
+
   
   /* ÁREA DO RODAPÉ */  
 
@@ -94,5 +116,7 @@ footer >a{
     color: white;
     text-decoration: underline;
   
-}
+} 
+/* END RODAPÉ */
+
 
