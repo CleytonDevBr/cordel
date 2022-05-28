@@ -1,0 +1,98 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'cordel moderno';
+    src: url(/fonts/Panipuri.otf);
+}
+
+:root {
+    --cor-body: #C5CED9;
+    --cor-secundária: #626973;
+    --cor-footer: #BF4E63;
+    --cor-cabeçalho: #000000;
+
+}
+body {
+    background-color: var(--cor-body);
+}
+
+* {
+ margin: 0px;
+ padding: 0px;
+}
+header {
+    background-color: var(--cor-cabeçalho);
+    color: white;
+    text-align: center;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.281);
+}
+header >h1 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-variant: small-caps;
+    font-size: 10vh;
+  margin: auto;
+ 
+    
+}
+ /* ÁREA DO BOTÃO DA NAV */
+ nav> a{
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(to right, #BF4E63  0%, #040404 100%);  
+    padding: 12px;
+     font-family: cursive;
+     font-size: 1.1rem;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.281);
+    border-radius: 6px 6px;
+    background: linear-gradient(to bottom,transparent);
+   
+    
+}
+a:hover {
+    transition: 0.4s;
+    background: linear-gradient(to right, #626973  100%, #040404 0%);
+  /*  END  NAV */
+} 
+ /* CORPO DA PÁGINA */
+section.normal, section.imagem{
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+      font-family: cursive;
+    line-height: 5vh;
+   padding-left: 30px;
+  font-size: 20px;
+  
+ 
+  
+ 
+}
+ section.normal {
+   background-color:  white;
+   color: #000000;
+  }
+  section.imagem{
+   
+      color:  white;
+  }
+  section.imagem >p{
+      background-color: #0000008e;
+      width:  400px;
+      padding: 6px;
+  }
+  
+  
+  /* ÁREA DO RODAPÉ */  
+
+footer{
+    text-align: center;
+    padding: 10px ;
+    font-family: cursive;
+}
+footer >a{
+    
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+  
+}
+
